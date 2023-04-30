@@ -4,7 +4,7 @@ import React from "react";
 
 type Props = {
   title: string;
-  subtitle: string;
+  subtitle?: string;
   icon?: React.ReactNode;
   sideText: string;
 };
